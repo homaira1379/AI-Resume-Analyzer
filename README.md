@@ -2,9 +2,14 @@
 
 A Machine Learning & NLP-powered tool that analyzes resumes, identifies skill gaps, recommends courses, and provides personalized career insights.
 
+🔗 Live Demo & Repository
+Type	Link
+📂 GitHub Repository	https://github.com/homaira1379/AI-Resume-Analyzer
+
+🚀 Live Demo (Streamlit Cloud)	https://ai-resume-analyzer-efaeakel6r3vpccg8lm6vf.streamlit.app
 🚀 Overview
 
-The AI Resume Analyzer is a Smart Career Assistant built using:
+The AI Resume Analyzer acts as a Smart Career Assistant using:
 
 🧠 Natural Language Processing (NLP)
 
@@ -14,50 +19,55 @@ The AI Resume Analyzer is a Smart Career Assistant built using:
 
 📚 Course Recommendation Engine
 
-It evaluates a user’s resume, extracts skills, matches them against industry requirements, and suggests relevant improvements.
-Perfect for job seekers, students, and professionals.
+It evaluates resumes, extracts key information, identifies missing skills, and recommends personalized learning paths.
+
+Perfect for:
+
+✨ Job seekers
+✨ Students
+✨ Professionals upgrading their skills
 
 ✨ Features
 🔍 1. Resume Analysis
 
-Extracts skills, experience, and keywords
+Extracts skills, experience, email, phone, and keywords
 
-Highlights missing skills
+Highlights strengths & weaknesses
 
-Identifies strengths & weaknesses
+Parses PDF resumes automatically
 
 📘 2. Skill Gap Detection
 
-Compares your skills with industry standards
+Compares user skills with industry-required skills
 
-Highlights important skills you need to learn
+Identifies important missing skills
 
 🎓 3. Course Recommendations
 
-Suggests courses based on missing skills
+Suggests relevant courses based on skill gaps
 
-Uses a curated course dataset
+Uses curated course lists
 
 🧭 4. Career Insights
 
-Suggests job roles suitable to your background
+Suggests suitable job fields
 
-Helps users plan next steps
+Recommends paths based on your strengths
 
 💡 5. Simple & Fast Web Interface
 
 Built using Streamlit
 
-Upload PDF or text resume
+Clean UI with easy PDF upload
 
 🏗️ Tech Stack
 Area	Technology
 Language	Python
 Framework	Streamlit
-NLP	spaCy / NLTK
+NLP	spaCy, NLTK
 ML	Scikit-learn
 Data	Skills & Course Dataset
-Deployment	Local or Cloud
+Deployment	Local + Streamlit Cloud
 📦 Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/homaira1379/AI-Resume-Analyzer.git
@@ -70,27 +80,33 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-Your app will open locally in the browser (default: http://localhost:8501).
+Your app will open in the browser:
+👉 http://localhost:8501
 
 🧠 How It Works (Simplified Workflow)
 
-Upload your resume (PDF/Text)
+1️⃣ Upload a resume (PDF)
+2️⃣ NLP extracts:
 
-NLP model extracts skills + keywords
+Skills
 
-Algorithm compares your skills vs job requirements
+Experience
 
-Missing skills → recommended courses
+Keywords
 
-Final output:
+Education
 
-Strengths
+3️⃣ Algorithm compares your skills with industry roles
+4️⃣ Missing skills → Recommended courses
+5️⃣ Final output includes:
 
-Skill gaps
+✔️ Strengths
 
-Suggested job roles
+✔️ Skill gaps
 
-Learning roadmap
+✔️ Career recommendations
+
+✔️ Learning roadmap
 
 📁 Project Structure
 📦 AI-Resume-Analyzer
@@ -103,12 +119,13 @@ Learning roadmap
 🤝 Contributing
 
 Contributions are welcome!
+To contribute:
 
-Fork the repo
+Fork the repository
 
 Create a new branch
 
-Commit improvements
+Commit changes
 
 Submit a pull request
 
@@ -116,6 +133,8 @@ Submit a pull request
 
 This project is licensed under the MIT License.
 
-⭐ Support
+⭐ Support the Project
 
-If you find this helpful, feel free to star ⭐ the repository!
+If you find this helpful, please give the repository a star ⭐ on GitHub:
+
+👉 https://github.com/homaira1379/AI-Resume-Analyzer
