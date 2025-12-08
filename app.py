@@ -973,7 +973,7 @@ def main():
             admin_page()
 
         st.sidebar.markdown("---")
-        st.sidebar.info("© 2024 AI Resume Analyzer. Designed by Abhyudith Bharadhwaj")
+        st.sidebar.info("© 2024 AI Resume Analyzer. Designed by Homaira Yousufi")
 
         if st.session_state.get('admin_logged_in', False) and st.sidebar.button("Logout"):
             st.session_state.admin_logged_in = False
